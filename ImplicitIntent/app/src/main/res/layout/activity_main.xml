@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/map_intent_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Location"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/browser_intent_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show URL"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/dial_intent_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12345677"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/clock_intent_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/camera_intent_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
