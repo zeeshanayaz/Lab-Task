@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
             override fun onClick(dialog: DialogInterface?, which: Int) {
                 finishAffinity()
             }
-
         })
 
         dialogBuilder.setNegativeButton("No", object : DialogInterface.OnClickListener{

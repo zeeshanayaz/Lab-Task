@@ -21,8 +21,8 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    private var btn: Button? = null
-    private var imageview: ImageView? = null
+    private var userImageIcon: Button? = null
+    private var userImage: ImageView? = null
     private val GALLERY = 1
     private val CAMERA = 2
 
@@ -30,10 +30,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn = findViewById<View>(R.id.btn) as Button
-        imageview = findViewById<View>(R.id.iv) as ImageView
+        userImageIcon = findViewById<View>(R.id.btn) as Button
+        userImage = findViewById<View>(R.id.iv) as ImageView
 
-        btn!!.setOnClickListener { showPictureDialog() }
+        userImageIcon!!.setOnClickListener { showPictureDialog() }
     }
 
     private fun showPictureDialog() {
@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
                     val bitmap = MediaStore.Images.Media.getBitmap(this.contentResolver, contentURI)
                     val path = saveImage(bitmap)
                     Toast.makeText(this@MainActivity, "Image Saved!", Toast.LENGTH_SHORT).show()
-                    imageview!!.setImageBitmap(bitmap)
+                    userImage!!.setImageBitmap(bitmap)
 
                 }
                 catch (e: IOException) {
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
         else if (requestCode == CAMERA)
         {
             val thumbnail = data!!.extras!!.get("data") as Bitmap
-            imageview!!.setImageBitmap(thumbnail)
+            userImage!!.setImageBitmap(thumbnail)
             saveImage(thumbnail)
             Toast.makeText(this@MainActivity, "Image Saved!", Toast.LENGTH_SHORT).show()
         }

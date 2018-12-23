@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">CameraAndGallery</string>
+    <string name="app_name">AlertDialog</string>
+    <string name="close_application">Close Application</string>
 </resources>
