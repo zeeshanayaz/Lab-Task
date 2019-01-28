@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun saveUser(name: String, password: String) {
-        val sharedPreferences = getSharedPreferences("user", 0)
+        val sharedPreferences = getSharedPreferences("user", 0) //Mode 0 is private and 1 is for public
         val editor = sharedPreferences.edit()
         editor.putString("name",name).apply()
         editor.putString("password",password).apply()
