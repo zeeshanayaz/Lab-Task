@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "407300381720",
+    "firebase_url": "https://fir-demo-ed726.firebaseio.com",
+    "project_id": "fir-demo-ed726",
+    "storage_bucket": "fir-demo-ed726.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407300381720:android:21187fc1fd1bc564",
+        "android_client_info": {
+          "package_name": "com.zeeshan.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407300381720-pafbgnnba27v55ga21qnikurf3kjru3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqCbmIZfAbo_wuEg3LU5knkDo8NgnWGlQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407300381720:android:718dbdfed51f8e04",
+        "android_client_info": {
+          "package_name": "com.zeeshan.uploadpicture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407300381720-pafbgnnba27v55ga21qnikurf3kjru3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqCbmIZfAbo_wuEg3LU5knkDo8NgnWGlQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
